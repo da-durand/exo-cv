@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacte</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div id="container">
+        <form method="POST" action="cv.html">
+            <p>
+                <div>
+                    <label for="first_name_input">Nom</label>
+                    <p class="required">*</p>
+                    <input type="text" name="first_name" id="first_name_input" maxlength="15" required="required"
+                        class="names">
+                    <label for="last_name_input">Prénom</label>
+                    <p class="required">*</p>
+                    <input type="text" name="last_name" id="last_name_input" maxlength="10" required="required"
+                        class="names">
+                </div>
+                <div>
+                    <label for="mail_input">Email</label>
+                    <p class="required">*</p>
+                    <input type="mail" name="mail" id="mail_input" required="required">
+                </div>
+                <div>
+                    <label for="phone_input">Téléphone</label>
+                    <input type="tel" name="phone" id="phone_input">
+                </div>
+                <div>
+                    <label for="subject_input">Motif</label>
+                    <p class="required">*</p>
+                    <select name="subject" id="subject_input" required="required">
+                        <option value="professionnel">professionnel</option>
+                        <option value="jeu-de-role">Jeu de rôle</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message_input">Message</label>
+                    <p class="required">*</p>
+                </div>
+                <div>
+                    <textarea name="message" id="message_input" cols="20" rows="5" required="required"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" id="submit_input">
+                </div>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+#container {
+    margin: auto;
+    width: 50%;
+}
+
+div {
+    margin-bottom: 1em ;
+}
+
+p {
+    display: inline ;
+}
+
+.required {
+    color: red ;
+}
+
+textarea {
+    width: 100% ;
+}
+
+select {
+    width: 91.8% ;
+}
+
+#mail_input {
+    width: 90.9% ;
+}
+
+#phone_input {
+    width: 88.2% ;
+}
+
+.names {
+    width: 40.1% ;
+}
